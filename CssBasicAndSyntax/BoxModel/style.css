@@ -1,0 +1,39 @@
+.a{
+    text-align: center ;
+    background-color: aqua;
+    font-size: 50px;
+    
+}
+
+.b{
+    background-color: burlywood;
+    border: solid black 5px;
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    justify-content: space-between;
+    }
+    
+.k{
+    border: solid black 5px;
+    height: 800px;
+
+}
+.ac{
+    text-align: center;
+    background-color: rgb(255, 77, 0);
+}
+
+/* .Loder{
+     width: 60px; height: 60px;
+     border: 6px solid #333;
+     border-top-color: cyan;
+     border-radius: 50%;
+     animation: spin 1s linear infinite;
+}
+@keyframes spin {to {transform: rotate(360deg);}} */
+

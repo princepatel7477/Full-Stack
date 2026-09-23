@@ -1,0 +1,42 @@
+body{
+    background: #19f7e5;
+}
+
+.main{
+    background-color: rgb(rgb(228, 74, 74), green, blue);
+}
+
+#card{
+    background-color: cornsilk;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000;
+}
+h3{
+    color: rgb(222, 136, 24);
+}
+#card p{
+    background-color: rgb(231, 242, 31);
+    color: black;
+    border: 5px groove rgb(0, 0, 0);
+    height: 500px;
+   
+    overflow: auto;
+}
+#clickBtn{
+    background-color: rgb(145, 241, 0);
+    border: #000;
+    width: 10%px;
+    height:10% ;
+    box-shadow: gray 1px 1px 2px 1px;
+    border-radius: 3px;
+    
+
+    
+    
+
+}
+h1{
+    background-color: red;
+
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#outer{
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-evenly;
+                     /*      
+                    1 space-between
+                    2 center
+                    3 space-around
+                    4  space-evenly  
+                    */
+
+    align-items: baseline;
+   
+}
+.a{
+    width: 200px;
+    height:200px;
+    border: 1px solid #000;
+    background-color: rgb(253, 162, 35);
+    display: inline-block;
+    color: #000;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+#grid-outer{
+    padding: 40px;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 70px;
+
+
+}
+.gd{
+    
+    
+}
