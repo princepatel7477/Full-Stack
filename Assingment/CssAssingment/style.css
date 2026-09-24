@@ -1,26 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .personal-outer {
   display: grid;
-  grid-template-columns: auto auto auto auto ;
+  grid-template-columns: auto auto auto auto;
   row-gap: 30px;
-  
 }
-.outer{
+.outer {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto ;
+  grid-template-columns: auto auto auto auto auto auto auto;
   row-gap: 30px;
 }
 
-.L{
-    display: grid;
-  grid-template-columns: auto auto auto auto ;
-
+.L {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
-.I{
-    display: grid;
-    grid-template-columns: 140px 200px 130px 200px  ;
-    row-gap: 30px;
-
+.I {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 30px;
 }
-.p{
-    text-align: center;
+.p {
+  text-align: center;
 }
