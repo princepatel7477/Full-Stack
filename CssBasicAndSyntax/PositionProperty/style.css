@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: aqua;
+    display: flex ;
+    justify-content: space-between;
+    
+}
+
+.menu-items {
+    display: inline;
+     gap: 15px;
+     justify-content: space-between;
+     margin: 5px;
+     
+    
+    
+
+}
+.menu-items button{
+    padding: 5px 10px;
+    background:rgb(31, 208, 42);
+    border: 1px solid  #028b39;
+    border-radius: 5px;
+    
+}
