@@ -1,0 +1,26 @@
+.personal-outer {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  row-gap: 30px;
+  
+}
+.outer{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto ;
+  row-gap: 30px;
+}
+
+.L{
+    display: grid;
+  grid-template-columns: auto auto auto auto ;
+
+}
+.I{
+    display: grid;
+    grid-template-columns: 140px 200px 130px 200px  ;
+    row-gap: 30px;
+
+}
+.p{
+    text-align: center;
+}
