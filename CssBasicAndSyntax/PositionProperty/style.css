@@ -6,14 +6,17 @@
     background-color: aqua;
     display: flex ;
     justify-content: space-between;
-    
+    align-items: center;
+    position: sticky;
+    top: 0px;
 }
 
 .menu-items {
-    display: inline;
+    display: flex;
      gap: 15px;
      justify-content: space-between;
-     margin: 5px;
+     margin: 15px;
+     align-items: center;
      
     
     
