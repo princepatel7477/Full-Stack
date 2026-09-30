@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#hw{
+    width: 400px;
+    height: 2.5rem;
+    border: 1px solid #000;
+    text-wrap-mode: nowrap;
+    overflow: hidden;
+    background-color: rgb(0, 208, 255);
+    transition: 
+    width 2s,
+     background-color 2s 1s;
+}
+
+/*
+transition propertice , daration timing-function
+linear
+ease-in
+ease-out
+ease-in-out
+ */
+
+#hw:hover{
+    width: 600px;
+    transition: width 2s 1s;
+     background-color: 2s 1s;
+}
+#welcome{
+    color: red;
+
+}
+#welcome::after{
+    content: 😂;
+}
+.d::before{
+    content:😘;
+}
+

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#dabba{
+    height: 100px;
+    width:100px ;
+    background-color: blue;
+    border: 1px solid #000;
+    position: absolute;
+
+}
+@keyframes Prince {
+    0%{
+        top: 0
+        left:0;
+    }
+    25
+    
+}
+
