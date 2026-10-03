@@ -258,11 +258,11 @@ h2 {
     position: relative;
     padding: 10px 8px 45px;
     text-align: center;
-    transition: .25s;
+    transition: 0.35s ease;
     overflow: hidden;
 }
 
-/* Grey background - neeche se upar aayega */
+/* Background neeche se upar aayega */
 .product-card::before {
     content: "";
     position: absolute;
@@ -272,17 +272,21 @@ h2 {
     height: 0;
     background: #dfe3e1;
     border-radius: 8px;
-    transition: height 0.35s ease;
     z-index: 0;
+    transition: height 0.35s ease;
 }
 
+/* Cursor le jaane par background upar */
 .product-card:hover::before {
-    height: 100%;
+    height: 65%;
 }
 
+/* Card thoda upar */
 .product-card:hover {
     transform: translateY(-7px);
 }
+
+/* Image */
 .product-image {
     height: 285px;
     display: flex;
@@ -299,22 +303,30 @@ h2 {
     transition: transform 0.35s ease;
 }
 
+/* Cursor par product upar */
 .product-card:hover .product-image img {
     transform: translateY(-12px);
 }
 
+/* Product name */
 .product-card h3 {
+    position: relative;
+    z-index: 3;
     margin-top: 12px;
     font-size: 15px;
     font-weight: 500;
 }
 
+/* Price */
 .product-card strong {
+    position: relative;
+    z-index: 3;
     display: block;
     margin-top: 7px;
     font-size: 15px;
 }
 
+/* + button */
 .add-product {
     position: absolute;
     bottom: 0;
@@ -334,10 +346,14 @@ h2 {
     transition: all 0.3s ease;
 }
 
+/* Hover par + button */
 .product-card:hover .add-product {
     opacity: 1;
     transform: translate(-50%, 0);
 }
+
+
+
 
 /* WHY CHOOSE US */
 .why-grid {
