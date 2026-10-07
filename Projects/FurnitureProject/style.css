@@ -327,7 +327,7 @@ h2 {
     font-size: 15px;
 }
 
-/* + button */
+/*  button */
 .add-product {
     position: absolute;
     bottom: 0;
@@ -537,7 +537,7 @@ h2 {
     font-weight: 600;
 }
 
-/* TESTIMONIAL */
+
 .testimonial {
     background: #eff2f1;
     text-align: center;
@@ -603,7 +603,7 @@ h2 {
     font-size: 11px;
 }
 
-/* BLOG */
+
 .blog-heading {
     display: flex;
     align-items: center;
@@ -635,7 +635,6 @@ h2 {
     font-size: 11px;
 }
 
-/* NEWSLETTER */
 .newsletter {
     background: #eff2f1;
     padding: 55px 0 0;
@@ -975,10 +974,6 @@ footer {
     }
 }
 
-/* =========================================================
-   ABOUT US PAGE
-   ========================================================= */
-
 .about-page {
     padding: 95px 0;
     background: #fff;
@@ -1058,10 +1053,6 @@ footer {
     line-height: 1.8;
 }
 
-
-/* =========================================================
-   CONTACT US PAGE
-   ========================================================= */
 
 .contact-page {
     padding: 95px 0;
@@ -1191,9 +1182,6 @@ footer {
 }
 
 
-/* =========================================================
-   ABOUT + CONTACT RESPONSIVE
-   ========================================================= */
 
 @media (max-width: 900px) {
 
@@ -1232,7 +1220,7 @@ footer {
 }
 
 
-/* Multi-page Shop */
+
 .page-hero { min-height: 430px; }
 .page-hero .container { min-height: 348px; display: flex; align-items: center; }
 .page-hero .hero-copy { padding-top: 35px; }
@@ -1250,7 +1238,7 @@ footer {
     .shop-products-grid { grid-template-columns: 1fr; }
 }
 
-/* Shop page layout */
+
 .shop-page-hero .container{position:relative;display:flex;align-items:center;justify-content:space-between;}
 .shop-page-hero .hero-copy{position:relative;z-index:2;max-width:520px;}
 .shop-hero-chair{width:46%;height:330px;display:flex;align-items:center;justify-content:center;position:relative;z-index:2;}
