@@ -39,6 +39,17 @@ function submit2() {
     console.log(fieldName[i] + " : " + formData[i]);
   }
 }
+
+const coursediv = document.getElementById("course")
+
+console.log(coursediv);
+const heading = document.querySelector("h2")
+console.log();
+
+
+
+
+
      
     
 
