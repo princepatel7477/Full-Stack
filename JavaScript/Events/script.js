@@ -1,37 +1,34 @@
-function showAlert(){
-    alert("Click me Button clickedd using HTML Events");
-
+function ShowAlert() {
+  alert("Click Me Button clicked using HTML Events");
 }
-document.getElementById("ClickButton").addEventListener("click", showAlert2);
 
-function showAlert2(){
-    alert("Click me Button clickedd using js Events");
+document.getElementById("clickButton").addEventListener("click", ShowAlert2);
 
+function ShowAlert2() {
+  alert("Click Me Button clicked using JS Events");
 }
-document.getElementById("box").addEventListener("click",()=>{
-    document.getElementById("box").innerText="The Box Was Clicked";
-    
 
-
+document.getElementById("box").addEventListener("click", () => {
+  document.getElementById("box").innerText = "The Box Was Clicked";
 });
 
-document.addEventListener("mouseover",()=>{
-    document.getElementById("mouse").innerText="Mouse is Over the Box";
-
-
+document.getElementById("box2").addEventListener("mouseenter", () => {
+  document.getElementById("box2").innerText = "The mouse Entered to Box";
 });
-document.addEventListener("mouseout",()=>{
-    document.getElementById("mouse").innerText="Mouse is Out of the Box";
-    
+document.getElementById("box2").addEventListener("mouseout", () => {
+  document.getElementById("box2").innerText = "The mouse Exit From Box";
 });
 
-document.getElementById("nameSubmit").addEventListener("click",()=>{
-    console.log(document.getElementById("fullName").addEventListener("input",()=>{
-        console.log(document.getElementById("fullName").value);
-    }));
+document.getElementById("nameSubmit").addEventListener("click", () => {
+  console.log(document.getElementById("fullName").value.trim());
+});
 
- } );
-    
+document.getElementById("fullName").addEventListener("keydown", (e) => {
+  e.key === "Enter" &&
+    console.log(document.getElementById("fullName").value.trim());
+});
 
-
-
+document.getElementById("LoginForm").addEventListener("submit", (e) => {
+  e.preventDefault();
+  console.log("Login Done");
+});
