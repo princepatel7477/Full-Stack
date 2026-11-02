@@ -1,28 +1,33 @@
-function submitBtn() {
+const Form1 = document.getElementById("form1");
 
-    let name = document.getElementById("name").value;
-    console.log(name);
+Form1.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const formData = new FormData(Form1);
 
-    // let isValid = true;
-    // for (let i = 0; i < name.length; i++) {
+  //If-else Statement to check fullName Validity
+  const nm = formData.get("fullName");
 
-    //     if (name.charAt(i) < 'A' ||
-    //      name.charAt(i) > 'Z' && name.charAt(i) < 'a' || 
-    //      name.charAt(i) > 'z' && name.charAt(i) != ' '
-    //     ) {
-    //         isValid = true;
+  //   let isValid = true;
+  //   for (var i = 0; i < nm.length; i++) {
+  //     if (
+  //       (nm.charAt(i) >= "A" && nm.charAt(i) <= "Z") ||
+  //       (nm.charAt(i) >= "a" && nm.charAt(i) <= "z") ||
+  //       nm.charAt(i) === " "
+  //     ) {
+  //       isValid = true;
+  //     } else {
+  //       isValid = false;
+  //       break;
+  //     }
+  //   }
 
-    //     } else {
-    //         isValid = false;
-    //         break;
-    //     }
-    // }
-    // if (isValid) {
-    //     console.log("Valid name");
-        
-    // } else {
-    //     console.log("Invalid name");
-    // }
+  //   if (/^[A-Za-z ]+$/.test(nm)) {
+  //     console.log("Valid Name");
+  //   } else {
+  //     console.log("Invalid Name");
+  //   }
 
-    
-}
+  console.log(/^[A-Za-z ]+$/.test(nm) ? "Valid" : "Invalid");
+  
+  //   console.log(isValid ? "Valid" : "Invalid");
+});

@@ -1,5 +1,3 @@
- 
-    
 // String Methods & Manipulation
  const name = "   rAHUL shARma   ";
         const email = "rahul@example.com";
@@ -101,27 +99,19 @@
 
         document.getElementById("lowestMarks").textContent =
             "Lowest Marks: " + Math.min(...mark);
-
-        
         const value = 7.8;
-
         document.getElementById("rounding").textContent =
             "Value: " + value +
             " | Round: " + Math.round(value) +
             " | Floor: " + Math.floor(value) +
             " | Ceil: " + Math.ceil(value) +
             " | Trunc: " + Math.trunc(value);
-
-    
         const radius = 5;
         const area = Math.PI * Math.pow(radius, 2);
-
         document.getElementById("circleArea").textContent =
             "Circle Area (radius 5): " + area.toFixed(2);
-
         const sideA = 3;
         const sideB = 4;
-
         document.getElementById("hypotenuse").textContent =
             "Triangle Hypotenuse: " + Math.hypot(sideA, sideB);
 
