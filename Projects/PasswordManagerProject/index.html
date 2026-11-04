@@ -62,7 +62,9 @@
         </div>
       </div>
       <div class="mt-2 d-flex justify-content-between">
-        <button class="btn btn-secondary">Clear form</button>
+        <button class="btn btn-secondary" onclick="ClearForm()">
+          Clear form
+        </button>
         <button class="btn btn-primary" onclick="SavePassword()">
           Save Password
         </button>
@@ -82,7 +84,7 @@
         </thead>
         <tbody class="text-center" id="dataTable">
           <tr id="emptyState">
-            <td colspan="5">No Password Saved</td>
+            <td colspan="5">No Saved Password</td>
           </tr>
         </tbody>
       </table>
