@@ -1,3 +1,16 @@
+function togglePassword(id, btn) {
+    const input = document.getElementById(id);
+    const icon = btn.querySelector("i");
+
+    if (input.type === "password") {
+        input.type = "text";
+        icon.classList.replace("bi-eye", "bi-eye-slash");
+    } else {
+        input.type = "password";
+        icon.classList.replace("bi-eye-slash", "bi-eye");
+    }
+}
+
 const LOCAL_STORAGE_DATA_KEY = "PasswordManagerData";
 
 function ClearForm() {
@@ -33,13 +46,6 @@ function SavePassword() {
 
   const localStorageData =
     JSON.parse(localStorage.getItem(LOCAL_STORAGE_DATA_KEY)) || [];
-
-  // if (localStorage.getItem(LOCAL_STORAGE_DATA_KEY).length > 0) {
-  //   localStorageData = JSON.parse(localStorage.getItem(LOCAL_STORAGE_DATA_KEY));
-  //   localStorageData.push(newPacket);
-  // } else {
-  //   localStorageData.push(newPacket);
-  // }
 
   localStorageData.push(newPacket);
 
