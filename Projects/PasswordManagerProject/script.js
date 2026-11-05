@@ -73,7 +73,7 @@ function RenderData() {
     return;
   }
 
-  TableBody.innerHTML = "";
+   TableBody.innerHTML = "";
 
   localStorageData.forEach((element, index) => {
     const TR = document.createElement("tr");
@@ -87,6 +87,14 @@ function RenderData() {
                 Delete
               </button>
             </td>
+          button class="btn btn-warning btn-sm" onclick="EditItem (${element.id})">
+            Edit
+          </button>
+          
+
+
+
+
     `;
 
     TableBody.appendChild(TR);
