@@ -12,6 +12,7 @@ function togglePassword(id, btn) {
     }
 }
 
+
 const LOCAL_STORAGE_DATA_KEY = "PasswordManagerData";
 
 function ClearForm() {
