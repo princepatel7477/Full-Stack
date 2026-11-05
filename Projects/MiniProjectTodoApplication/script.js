@@ -11,7 +11,6 @@ function addTask() {
   BUTTON.classList.add("btn", "btn-danger", "btn-sm", "ms-3");
   BUTTON.textContent = "Delete";
   BUTTON.onclick = () => LI.remove();
-
    const BUTTON1 = document.createElement("button1");
   BUTTON1.classList.add("btn", "btn-warning", "btn-sm", "ms-3");
   BUTTON1.textContent = "Edit";
