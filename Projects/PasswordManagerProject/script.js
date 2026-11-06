@@ -12,7 +12,6 @@ function togglePassword(id, btn) {
     }
 }
 
-
 const LOCAL_STORAGE_DATA_KEY = "PasswordManagerData";
 
 function ClearForm() {
@@ -32,12 +31,10 @@ function SavePassword() {
         alert("All fields Required");
         return;
     }
-
     if (ps !== cps) {
         alert("Password and Confirm Password Not Match");
         return;
     }
-
     const newPacket = {
         id: Math.floor(Math.random() * 100000),
         websiteName: wn,
@@ -45,7 +42,6 @@ function SavePassword() {
         password: ps,
         cfPassword: cps,
     };
-
     const localStorageData =
         JSON.parse(localStorage.getItem(LOCAL_STORAGE_DATA_KEY)) || [];
 
@@ -74,7 +70,6 @@ function RenderData() {
         `;
         return;
     }
-
     TableBody.innerHTML = "";
 
     localStorageData.forEach((element, index) => {
@@ -85,7 +80,6 @@ function RenderData() {
             <td>${element.websiteName}</td>
             <td>${element.userName}</td>
             <td>${element.password}</td>
-
             <td>
                 <button class="btn btn-warning btn-sm"
                     onclick="EditItem(${element.id})">
@@ -142,7 +136,6 @@ function EditItem(ItemID) {
             }
             : element
     );
-
     localStorage.setItem(
         LOCAL_STORAGE_DATA_KEY,
         JSON.stringify(newData)
