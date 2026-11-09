@@ -144,7 +144,6 @@ function EditItem(ItemID) {
     RenderData();
     alert("Data Updated Successfully");
 }
-
 function DeleteItem(ItemID) {
     const localStorageData =
         JSON.parse(localStorage.getItem(LOCAL_STORAGE_DATA_KEY)) || [];
