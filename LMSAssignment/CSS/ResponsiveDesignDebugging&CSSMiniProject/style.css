@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+}
+
+.dashboard {
+    width: 90%;
+    margin: 30px auto;
+}
+
+header {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.student-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student-info h2 {
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+.student-info p {
+    margin-bottom: 10px;
+}
+
+.course-heading {
+    margin-bottom: 20px;
+    color: #0d6efd;
+}
+
+.course-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #0d6efd;
+    margin-bottom: 12px;
+}
+
+.card p {
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.status {
+    font-weight: bold;
+    color: #198754;
+}
+
+@media (max-width: 600px) {
+    .dashboard {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .student-info,
+    .card {
+        padding: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    .course-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    .course-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
