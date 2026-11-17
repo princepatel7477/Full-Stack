@@ -20,7 +20,6 @@ price *= 2;
 console.log("price after *2 = " , price);
 price /= 2;
 console.log("price after /10 = " , price);
-
 console.log("2.comparision operator");
 let age = 20;
 console.log("age greater than 18 : " , age>18);
