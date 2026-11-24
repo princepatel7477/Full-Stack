@@ -56,7 +56,6 @@ function getCookie(name) {
     return null;
 }
 
-
 // Question 1 - Student Preference Cookies
 
 
@@ -146,9 +145,7 @@ document.getElementById("deleteCourse").addEventListener("click", function() {
         "ricr_course=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
 
     courseResult.textContent = "Course cookie deleted!";
-
 });
-
 
 document.getElementById("cookieInfo").innerHTML = `
     <p><b>expires:</b> Sets the date when a cookie expires.</p>
