@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     <h2>RICR Student Interaction Panel</h2>
+
+    <button onclick="showWelcome()">Show Welcome Message</button>
+
+    <button onclick="showReminder()">Show Course Reminder</button>
+
+    <h2>Explore RICR Courses</h2>
+
+    <div class="course" 
+         onmouseover="changeText(this)"
+         onmouseout="restoreText(this)">
+        HTML Fundamentals
+    </div>
+
+    <div class="course" ondblclick="showCourse()">
+        JavaScript Essentials
+    </div>
+
+    <div class="course" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)">
+        React Development
+    </div>
+
+    <p>
+        Clicking a button runs its related JavaScript function.
+        Mouseover occurs when the mouse enters an element.
+        Mouseout occurs when the mouse leaves an element.
+        Double click runs an action when an element is clicked twice.
+        Mousedown and mouseup occur when a mouse button is pressed and released.
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#courseContainer,
+#studentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.course-card {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: white;
+    width: 250px;
+}
+
+.student-card {
+    background-color: lightblue;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 250px;
+}

@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 30px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+.course {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 15px auto;
+    width: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.course:hover {
+    background-color: lightblue;
+}
+
+p {
+    margin-top: 25px;
+    line-height: 1.6;
+}
