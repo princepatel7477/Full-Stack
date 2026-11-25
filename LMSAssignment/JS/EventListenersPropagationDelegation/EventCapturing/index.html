@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+     <h2>RICR Event Capturing Demo</h2>
+
+    <div id="grandparent">
+        Grandparent
+
+        <div id="parent">
+            Parent
+
+            <button id="child">Click Me</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2>RICR Event Propagation Comparison</h2>
+
+    <h3>Capturing Example</h3>
+
+    <div id="captureGrandparent">
+        Course Dashboard
+
+        <div id="captureParent">
+            Course Section
+
+            <button id="captureChild">Capture Course Button</button>
+        </div>
+    </div>
+
+    <h3>Bubbling Example</h3>
+
+    <div id="bubbleGrandparent">
+        Course Dashboard
+
+        <div id="bubbleParent">
+            Course Section
+
+            <button id="bubbleChild">Bubble Course Button</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
