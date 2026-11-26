@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>RICR Student Registration Form Validator</h1>
+
+    <form id="studentForm">
+        <label>Full Name:</label>
+        <input type="text" id="fullName" required>
+        <br><br>
+
+        <label>Email Address:</label>
+        <input type="email" id="email" required>
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password" required minlength="8" maxlength="20">
+        <br><br>
+
+        <button type="button" id="checkEmail">Check Email</button>
+        <button type="button" id="checkPassword">Check Password</button>
+    </form>
+
+    <hr>
+
+    <h1>RICR Course Account Registration System</h1>
+
+    <form id="registrationForm">
+        <label>Email Address:</label>
+        <input type="email" id="regEmail" required>
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" id="regPassword" required minlength="8" maxlength="20">
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
